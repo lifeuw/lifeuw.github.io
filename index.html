@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Help The Ocean</title>
+     <style>
+       .image {
+         width: 15%; /* Initial width */
+         height: 20%;
+         transition: all 1s ease-in-out; /* Add smooth transition */
+         filter: grayscale(100%); /* Start with black and white */
+       }
+     
+       .image:hover {
+         height: 35;
+         width: 20%; /* Enlarged width */
+         filter: grayscale(0%); /* Add color on hover */
+       }
+       .exp{
+           visibility: hidden;
+       }
+
+
+       #background-video {
+       width: 100vw;
+       height: 100vh;
+       object-fit: cover;
+       position: fixed;
+       left: 0;
+       right: 0;
+       top: 0;
+       bottom: 0;
+       z-index: -1;
+       }
+     </style>
+ </head>
+ <body style="background-color: rgba(111, 111, 255, 0.866);">
+   <video id="background-video" autoplay loop muted poster="Turtles.mp4"  style="z-index: -1; position: absolute;">
+   <source src="Turtles.mp4" type="video/mp4">
+   </video>
+   <h1 align="center" style="background-color: rgba(49, 49, 255, 0.885); border-radius: 15%; border: 1px;">LIFE BELOW WATER LBCS<br>Now this website is for the cause <b>LIFE BELOW WATER</b></h1>
+   <b><p></p></b>
+   <div align="center">
+       <a href="https://education.nationalgeographic.org/resource/marine-pollution" target="_blank"><img class="image" src="NationalGeographic.png" alt="NationalGeographic"></a>
+       <a href="https://ypte.org.uk/factsheets/sea-pollution/chemical-pollution" target="_blank"><img class="image" src="YPTE.png" alt="YPTE Website"></a>
+   </div>
+   <div align="right">
+     <input type="button" onclick="document.getElementById('What can you do Area').scrollIntoView({behavior:'smooth'});" value="Scroll to What can you do?" style="padding: 1%; border-radius: 10%; background-color: rgba(49, 49, 255, 0.885);">
+     <input type="button" onclick="document.getElementById('Facts Area').scrollIntoView({behavior:'smooth'});" value="Scroll to Facts" style="padding: 1%; border-radius: 10%; background-color: rgba(6, 150, 239, 0.839);">
+     <input type="button" onclick="document.getElementById('Info Area').scrollIntoView({behavior:'smooth'});" value="Infromation" style="padding: 1%; border-radius: 10%; background-color: rgba(49, 49, 255, 0.885);">
+   </div><br>
+   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+   <div style="background-color: rgba(37, 37, 235, 0.854);" id="What can you do Area">
+       <h1>What can you do?</h1>
+       <p>Conserve Water.<br> Use less water so excess runoff and wastewater will not flow into the ocean<br>Reduce Pollutants.<br>Reduce Waste.<br>Shop for ecofriendly products.<br>Reduce Vehicle Pollution.<br>Use Less Energy.<br>Fish Responsibly.<br>Practice Safe Boating.<br>Make sure you dispose of trash properly.<br>
+       <b>Now, the reasons why these help is because this will reduce the amount of fish deaths in the ocean due to plastic and other things that are thrown away that are put into the ocean.<br> Next, it really kills a lot of animals and some of it doesn't just affect the sea, it can affect land animals due to the food chain.</b><br>
+       </p>
+   </div>
+   <div align="center">
+    <img src="FoodChain.png" alt="FoodChain" align="center">
+     </div>
+   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+   <div style="background-color: rgba(53, 157, 255, 0.771);" id="Facts Area" align="center"> 
+     <h1>Facts</h1>
+     <b><p>In website it states that 100 million marine animals die each year and that is just the estimated figure so for all we know there can be more or less.<br><br>In our homes we use many different sorts of cleaning, washing and polishing products which all contain various chemicals which often end up down the drain when flushed out of dishcloths or used in the bath or kitchen sink.  These chemicals may be harmful to wildlife and marine environments.
+        <br><br>More than 8 million tons of plastic enter the oceans every year.<br><br>Animals mistake plastic waste for prey.<br><br>100,000 animals die from entanglement each year.<br><br>3 billion people in the world depend on fish as a source of protein.</p></b>
+   </div>
+   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+   <div id="Info Area" style="background-color: rgba(37, 37, 235, 0.854);">
+    <h1>Information</h1>
+    <p><b>Contamination, or nutrient pollution, is concerning for our health and our environment. This type of pollution occurs when human activities, notably the use of fertilizer on farms, lead to the runoff of chemicals into waterways that ultimately flow into the ocean. The increased concentration of chemicals, such as nitrogen and phosphorus, in the coastal ocean promotes the growth of algal blooms, which can be toxic to wildlife and harmful to humans. The negative effects on health and the environment caused by algal blooms hurt local fishing and tourism industries.
+      <br><br>Marine wildlife such as seabirds, whales, fish and turtles mistake plastic waste for prey; most then die of starvation as their stomachs become filled with plastic
+      <br><br>Much of the waste we produce on land eventually reaches the oceans, either through deliberate dumping or from the run-off of drains and rivers. This garbage is often ingested by marine animals and sea birds, putting their lives in danger. Additionally, toxic chemicals leach out of ingested plastics, infecting the tissues of fish - a dangerous condition for the fish themselves and the humans who eat them.
+    </b></p>
+   </div>
+   <div align="center">
+      <img src="Cleaning.png" align="center">
+   </div>
+   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+   <p align="right"> Credits to Carson.E, Grant.R and Alex.M </p>
+  </body>
+</html>
